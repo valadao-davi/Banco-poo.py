@@ -35,7 +35,6 @@ while True:
                 extrato.append(f"Saque realizado de: R$ {saque}") 
                 limite_saques = limite_saques - 1
                 print("Saque realizado com sucesso!")
-                print(limite_saques)
             elif(saque < deposito):
                 print("Não há valor suficiente para sacar!")  
             else:
